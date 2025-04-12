@@ -12,4 +12,9 @@ This project is developed and maintained by:
 - Efficient data management for customer purchases and transactions.
 - Scalable structure for possible integrations with retail management systems.
 
+#**Installation**
+To use this repository, follow these steps:
+
+1. Clone the repository: git clone
+
 
