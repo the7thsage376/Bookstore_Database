@@ -1,7 +1,9 @@
 #**Overview**
 
 The Bookstore_Database repository contains structured data for managing a bookstore's inventory, transactions, and customer records. It provides a foundation for tracking book stock, sales, and related operational data efficiently.
-#Contributors
+
+#**Contributors**
+
 This project is developed and maintained by:
 - Moloi Lerato
 - Ndhlovu Thandolwethu
