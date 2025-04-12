@@ -33,7 +33,11 @@ This database can be utilized for:
 - Customer purchase management
 - Data analysis for sales trends
 
-
+## **Contact**
+If you have any questions or suggestions, reach out to us at:
+-[moloil405@gmail.com]
+-[thandolwethundhlovu8@gmail.com]
+-[snedla23@gmail.com]
 
 
 
