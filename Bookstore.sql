@@ -38,7 +38,7 @@ id varchar(50) PRIMARY KEY auto_increment,
 publisher_name varchar(50)
 );
 
-/Customer table/
+/*Customer table*/
 CREATE TABLE customers (
 id INT PRIMARY KEY auto_increment,
 firstName varchar(50),
