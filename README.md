@@ -39,6 +39,9 @@ If you have any questions or suggestions, reach out to us at:
 -[thandolwethundhlovu8@gmail.com]
 -[snedla23@gmail.com]
 
+## **ERD**
+
+![Error](https://github.com/the7thsage376/Bookstore_Database/blob/main/Bookstore_Database.drawio.png)
 
 
 
