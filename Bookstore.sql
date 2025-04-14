@@ -88,3 +88,38 @@ id varchar(50) PRIMARY KEY,
 country varchar(50)
 );
 
+/* customer order*/
+CREATE TABLE cust_order (
+id INT PRIMARY KEY auto_increment,
+order_date DATE,
+shipment_status_id varchar(50),
+country_id varchar(50),
+order_number INT,
+customer_id int,
+FOREIGN KEY(shipment_status_id) REFERENCES shipment_status(id), 
+FOREIGN KEY(country_id) REFERENCES country(id),
+FOREIGN KEY(customer_id) REFERENCES customer(id)  
+);
+
+/* order line */
+CREATE TABLE order_line (
+cust_order_id INT,
+customers_id INT,
+customer_address_id varchar(50),
+books_id varchar(50),
+shipment_status_id varchar(50),
+FOREIGN KEY(cust_order_id) REFERENCES cust_order(id),
+FOREIGN KEY(customers_id) REFERENCES customers(id),
+FOREIGN KEY(books_id) REFERENCES books(id),
+FOREIGN KEY(shipment_status_id) REFERENCES shipment_status(id) 
+);
+
+/* shipping method*/
+CREATE TABLE shipping_method (
+cust_order_id INT,
+shipment_method varchar(50),
+shipment_status varchar(50) PRIMARY KEY,
+FOREIGN KEY(cust_order_id) REFERENCES cust_order(id)
+);
+
+
